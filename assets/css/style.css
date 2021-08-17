@@ -1,0 +1,40 @@
+/*  ------------------- ESTILOS GERAIS  ------------------- */
+html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main{
+  padding: 10px;
+  margin: 5px;
+
+}
+
+body{
+  background-color: var(--colorBackgroundSecondary);
+  color: var(--colorTextSecudary);
+}
+
+/*  ------------------- Cores padrão  ------------------- */
+:root{
+  --colorBackgroundPrimary: #e60000;
+  --colorBackgroundSecondary: #800000;
+  --colorTextPrimary:#000;
+  --colorTextSecudary:#FFF;
+}
+
+div {  
+  border-radius: 10px;
+}
+
+.top {
+  background-color: var(--colorBackgroundPrimary);
+  color: var(--colorTextSecudary); 
+}
+
+.product {
+  background-color: var(--colorTextSecudary);
+  color: var(--colorTextPrimary);
+  margin: 10px;
+}
+
+img {
+  width:150px;
+  border-radius: 15px;
+  float: right;
+}
